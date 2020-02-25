@@ -1,0 +1,30 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "web develop tools\r     组合插件使用实现打包、变异、测试、调试等功能",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --watch --inline --config loader.webpack.js"
+  },
+  "repository": "git+https://github.com/96weibin/tools.git",
+  "author": "weibinZjz <1643960119@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/96weibin/tools/issues"
+  },
+  "homepage": "https://github.com/96weibin/tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.4.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "typescript": "^3.8.2"
+  }
+}
