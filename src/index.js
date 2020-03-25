@@ -1,1 +1,0 @@
-module.exports = console.log('时光易果不在有')
